@@ -1,0 +1,87 @@
+.bg-dorado {
+    background-color: #591feb;
+}
+
+.bg-servicios {
+    background-color: #e5e5ff;
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer.bg-custom-footer {
+    background-color: #591feb;
+}
+
+footer p a {
+    color: #3afa70 !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contacto {
+    background-color: #F8F9FA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contacto h2 {
+    color: #591FEB;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contacto form {
+    background-color: #e5e5ff;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+#contacto .form-label {
+    color: #495057;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#contacto .form-control {
+    border: 1px solid #CED4DA;
+    border-radius: 0.25rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#contacto .form-control:focus {
+    border-color: #591FEB;
+    box-shadow: 0 0 0 0.25rem rgba(89, 31, 235, 0.2);
+    outline: none;
+}
+
+#contacto .btn-primary {
+    background-color: #591FEB;
+    border-color: #9475e3;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.75rem 2.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+#contacto .btn-primary:hover {
+    background-color: #4414B8;
+    border-color: #4414B8;    
+}
+
+.btn-custom-color {
+    background-color: #591feb;
+    border-color: #591feb;
+    color: #ffffff;
+    font-weight: bold;
+}

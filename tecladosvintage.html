@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="img/icon.png">
+    <title>SAMPLESHOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--Seccion de encabezado-->
+    <!--Seccion de encabezado-->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dorado">
+        <div class="container">
+            <h1 class="navbar-brand display-4 fw-bold">SAMPLESHOP - SAMPLES MUSICALES</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarnav"
+                aria-controls="navbarnav" aria-expanded="false" aria-label="Alternar navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarnav">
+            <!--Menu de pagina-->
+            <nav>
+                <ul class="navbar-nav mx-5">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Servicios" class="nav-link">Korg M1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Servicios" class="nav-link">Yamaha DX7</a>
+                    <li class="nav-item">
+                        <a href="#Servicios" class="nav-link">Roland D50</a>
+                </ul>
+
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <!--seccion de introduccion-->
+        <section id="introduccion" align="center" class="py-5 container">
+            <h2>VENTA DE TECLADOS VINTAGE/IMPORTADOS</h2>
+            <p class="lead">Importamos teclados directamente de japon, en excelente estado revisado por los mejores
+                tecnicos especialistas en teclados vintage, productos solo a pedido del cliente.
+            </p>
+
+        </section>
+        <!--seccion de articulos-->
+        <section id="Servicios" class="bg-light container">
+            <article class="container py-3">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 d-flex flex-column">
+                            <img src="img/KORGM1.jpg" class="card-img-top" alt="imagensamplesfisicos">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title text-center">KORG M1</h5>
+                                <p class="card-text text-center">Importado directamente desde Japon, buen estado de
+                                    conservacion y totalmente operativo</p>
+                                <div class="text-center mt-auto">
+                                    <a href="" class="btn btn-primary mt-3 px-5 py-2">HACER PEDIDO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 d-flex flex-column">
+                            <img src="img/DX7.jpg" class="card-img-top" alt="imagensamplesprogramas">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title text-center">YAMAHA DX7</h5>
+                                <p class="card-text text-center">Importado directamente desde Japon, buen estado de
+                                    conservacion y totalmente operativo</p>
+                                <div class="text-center mt-auto">
+                                    <a href="" class="btn btn-primary mt-3 px-5 py-2">HACER PEDIDO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 d-flex flex-column">
+                            <img src="img/D50.jpg" class="card-img-top" alt="imagensamplesprogramas">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title text-center">ROLAND D50</h5>
+                                <p class="card-text text-center">Importado directamente desde Japon, buen estado de
+                                    conservacion y totalmente operativo</p>
+                                <div class="text-center mt-auto">
+                                    <a href="" class="btn btn-primary mt-3 px-5 py-2">HACER PEDIDO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+        </section>
+        
+        <!--secion de contacto-->
+        <section id="contacto" class="py-5">
+            <div class="container">
+                <h2 class="mb-4 text-center">Contactanos</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form action="#" method="post" class="p-4 rounded-2 shadow-md">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Ingrese tu nombre"
+                                    class="form-control">
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Nombre@ejemplo.com"
+                                    class="form-control">
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje: </label>
+                                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Escribe tu mensaje aqui..."
+                                    class="form-control"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary px-5 py-2">Enviar mensaje</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="py-3 bg-custom-footer">
+        <div class="py-3 text-center text-white">
+            <p>&copy; SAMPLESHOP 2025 Todos los derechos reservados / Siguenos en:</p>
+        </div>
+        <div>
+            <p class="text-white text-center py-3">
+                <a href="https://www.facebook.com/SAMPLESHOP">Facebook</a>
+                |
+                <a href="https://www.instagram.com/SAMPLESHOP">Instagram</a>
+                |
+                <a href="https://x.com/SAMPLESHOP">X</a>
+                |
+                <a href="https://www.tiktok.com/@don_kukiss?lang=es">Tiktok</a>
+            </p>
+
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
